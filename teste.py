@@ -21,6 +21,7 @@ class MySQLRanking:
             self.create_table()
         except mysql.connector.Error as e:
             logging.error(f"Erro ao conectar ao MySQL: {e}")
+            print(e)
             print("⚠️ Aviso: não foi possível conectar ao banco MySQL. Continuando sem ranking.")
             self.conn = None
             self.cursor = None
