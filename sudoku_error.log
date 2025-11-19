@@ -1,0 +1,2 @@
+2025-11-19 09:57:38,034 - ERROR - Erro ao conectar ao MySQL: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2025-11-19 09:58:37,082 - ERROR - Erro ao conectar ao MySQL: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
