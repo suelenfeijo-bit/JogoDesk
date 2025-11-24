@@ -9,7 +9,7 @@ logging.basicConfig(filename="sudoku_error.log", level=logging.ERROR,
                     format="%(asctime)s - %(levelname)s - %(message)s")
 
 class BancoDeDados:
-    def __init__(self, host="localhost", user="root", password="", database="sudoku_db"):
+    def __init__(self, host="localhost", user="root", password="root", database="sudoku_db"):
         self.host = host
         self.user = user
         self.password = password
